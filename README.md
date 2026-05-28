@@ -1,6 +1,6 @@
 # GDP Per Capita PPP vs Subjective Wellbeing
 
-**Project Overview:**
+### Project Overview:
 
 Conventional wisdom dictates that more money translates into higher life satisfaction. Of course, life satisfaction increases significantly if a person manages to climb their way out of poverty. However, the law of diminishing marginal utility also suggests that at some point, the rate at which life satisfaction increases per dollar will diminish. At some point, more money won't result into significantly higher life satisfaction.
 
@@ -24,7 +24,7 @@ With that said, let's dive deeper into the concepts, the analysis methodology an
 
 --------------------------------------
 
-**Quick Concept Catch-Up:**
+### Quick Concept Catch-Up:
 
 Brevity is important. However, the following two concepts require a few seconds to get used to. Thus, they have been given some time in this report, making it slightly more voluminous.
 
@@ -44,7 +44,7 @@ Importantly, the question does not mention concepts like happiness, wellbeing, o
 
 --------------------------------------
 
-**Analysis Methodology and Findings:**
+### Analysis Methodology and Findings:
 
 - The Python script utilised for this analysis first merges the two datasets (World Bank's GDP dataset and World Happiness Report's Ladder Scores) based on country names. The year 2024 was chosen for this study because that was the last year for which the World Bank data was available.
 - The WHR dataset initially contained 140 countries, out of which, data for 124 countries was available in the World Bank Dataset. Thus, this analysis was conducted for 124 countries.
@@ -70,6 +70,6 @@ So what is it that brings these countries to the top of the ladder apart from hi
 
 --------------------------------------
 
-**Conclusion:**
+### Conclusion:
 
 This study utilised correlation, linear regression and the LOWESS curve to understand the strength of the relationship between subjective wellbeing and GDP per capita PPP. We found that post the 85000 dollars GDP per capita PPP mark, the gains in subjective wellbeing are marginal. With the example of the Nordic countries, we also saw that subjective wellbeing involves a lot more than economic prosperity. Factors including reliable state welfare benefits, low corruption, individual autonomy, and others significantly influence how satisfied people are with their lives. From these findings, we learn that economic, institutional, and cultural factors together make way for citizen happiness and wellbeing- which, as we all must agree, are the ultimate goals of government.
