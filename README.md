@@ -6,13 +6,13 @@ Conventional wisdom dictates that more money translates into higher life satisfa
 
 This study utilises two datasets to analyse the above tension: [The World Bank GDP per capita PPP dataset from 2024](https://data360.worldbank.org/en/indicator/WB_WDI_NY_GDP_PCAP_PP_CD?view=datatable&average=WLD), and the [World Happiness Report of 2024](https://www.worldhappiness.report/ed/2024/). It tries to answer 2 questions:
 
-- Considering life satisfaction grows with increasing GDP per capita PPP, at what level of GDP per capita PPP does the growth in life satisfaction (subjective wellbeing) become stagnant? (Both concepts- 'GDP per capita PPP' and 'subjective wellbeing' are explained below)
-- Which are the satisfaction-outlier countries (relatively lower GDP and higher satisfaction score) and what is their secret?
+1) Considering life satisfaction grows with increasing GDP per capita PPP, at what level of GDP per capita PPP does the growth in life satisfaction (subjective wellbeing) become stagnant? (Both concepts- 'GDP per capita PPP' and 'subjective wellbeing' are explained below)
+2) Which are the satisfaction-outlier countries (relatively lower GDP and higher satisfaction score) and what is their secret?
 
 Here are the key findings:
 
-- At ~85,000 dollars GDP per capita PPP, growth in the life evaluation scores begins to flatten significantly. This means that once countries around the world reach the material living standards compared to what a US Citizen can roughly purchase with 85000 dollars, further economic improvements marginally increase one's wellbeing.
-- Nordic countries like Finland, Denmark and Iceland are surely satisfaction-outlier countries. These countries report higher subjective well-being scores at much lower GDP per capita PPP (compared to countries like Switzerland and Luxembourg). They are strong real-life examples of the well known hypothesis that money is not all it takes to ensure wellbeing. Factors like life expectancy, generosity, freedom of choice, and others matter tremendously in deciding what one rates their quality of life as.
+1) At ~85,000 dollars GDP per capita PPP, growth in the life evaluation scores begins to flatten significantly. This means that once countries around the world reach the material living standards compared to what a US Citizen can roughly purchase with 85000 dollars, further economic improvements marginally increase one's wellbeing.
+2) Nordic countries like Finland, Denmark and Iceland are surely satisfaction-outlier countries. These countries report higher subjective well-being scores at much lower GDP per capita PPP (compared to countries like Switzerland and Luxembourg). They are strong real-life examples of the well known hypothesis that money is not all it takes to ensure wellbeing. Factors like life expectancy, generosity, freedom of choice, and others matter tremendously in deciding what one rates their quality of life as.
 
 Here are the assets utilised in the making of this study:
 
