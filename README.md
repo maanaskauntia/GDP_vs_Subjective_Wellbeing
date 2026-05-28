@@ -17,7 +17,7 @@ Here are the key findings:
 Here are the assets utilised in the making of this study:
 
 - Python Script- [code.ipynb](https://github.com/maanaskauntia/GDP_vs_Life_Satisfaction/blob/main/code.ipynb)
-- World Bank Dataset- [2024_WB_GDP_PerCapita_PPP.csv](
+- World Bank Dataset- [2024_WB_GDP_PerCapita_PPP.csv](https://drive.google.com/file/d/17LIhcHjpVwTLrlClfnZ3gk1XH4mBVHTe/view?usp=sharing)
 - World Happiness Report Dataset- [WHR2024_Data.csv](https://github.com/maanaskauntia/GDP_vs_Life_Satisfaction/blob/main/WHR2024_Data.csv)
 
 With that said, let's dive deeper into the concepts, the analysis methodology and the findings that will help us build nations where citizens feel like their lives are at least a solid 7, instead of a dull 4.
