@@ -53,7 +53,7 @@ Importantly, the question does not mention concepts like happiness, wellbeing, o
 Let us take a deeper look into the relationship between GDP per capita PPP and subjective wellbeing.
 
 <div align="center">
-  <img src="https://drive.google.com/file/d/12OK0EvT_MKyHUnlkOCrELi1mROHOYtcE/view?usp=sharing" alt="LOWESS curve" width="800">
+  <img src="https://lh3.googleusercontent.com/d/1HRGoUA_EeL-3ckPrYDv0X8_5YUIiGSmI" alt="LOWESS curve" width="800">
 </div>
 
 The red line above is not a linear regression line, but a LOWESS (Locally Weighted Scatterplot Smoothing) curve. It is made out of stitching many tiny local regressions around neighbouring points into one smooth curve. The reason for choosing this trend line instead of a linear regression was that it makes obvious the point at which we see significantly diminishing marginal returns.
