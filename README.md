@@ -1,4 +1,4 @@
-# GDP_vs_Life_Satisfaction
+# GDP Per Capita PPP vs Subjective Wellbeing
 
 **Project Overview:**
 
