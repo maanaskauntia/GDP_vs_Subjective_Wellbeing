@@ -28,17 +28,17 @@ With that said, let's dive deeper into the concepts, the analysis methodology an
 
 Brevity is important. However, the following two concepts require a few seconds to get used to. Thus, they have been given some time in this report, making it slightly more voluminous.
 
-GDP Per Capita PPP:
+**`GDP Per Capita PPP:`**
 
 The Gross Domestic Product (GDP) of a country is the total income earned through the production of goods and services in that country during an accounting period (in this case, 2024). The GDP _Per Capita_ is the economic value contributed by the average person of that country. It is calculated using a simple average: GDP / Population. We can, for the sake of GDP comparison between countries, convert their currencies into dollars based on the current exchange rates. However, this measure is not ideal for cross-country comparisons because **when measured in dollars, one dollar's worth in India (Rs. 95) buys much more than a dollar in the US**. So when an Indian citizen says they are quite happy at 10 dollars GDP per capita and a US citizen says the same thing, that does not mean they have the same material reality and economic level (as the same amount in dollars goes further in India).
 
 To resolve this inconsistency, economists developed Purchasing Power Parity (PPP). This is an imaginary currency used to account for the disparities in living-standards that the same dollar number might have in different countries. Economists calculate PPP numbers based on baskets of goods, prices, living costs and other such factors that influence living standards. For instance, exchange rates in PPP are significantly based on how much a certain basket of goods costs in India and how much the same basket containing the same goods costs in the US. Thus, a dollar could be worth Rs. 95 in exchange rate, but only worth Rs. 20 in PPP.
 
-Subjective Wellbeing:
+**`Subjective Wellbeing:`**
 
 Subjective wellbeing is a measure of people's own accounts of their happiness and life satisfaction. The World Happiness Report (WHR) is the world's leading publication on global 'subjective wellbeing' and the factors that improve it. Subjective wellbeing of different countries is measured based on a single life evaluation question asked to its citizens:
 
-Please imagine a ladder with steps numbered from 0 at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?
+> Please imagine a ladder with steps numbered from 0 at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?
 
 Importantly, the question does not mention concepts like happiness, wellbeing, or satisfaction, so it can be easily translated and understood in many different languages. Moreover, to provide a more precise estimate of the average life evaluation in each country, the World Happiness Report combines responses from the last three years. For example, the 2026 rankings would be based on combined data from 2023 to 2025.
 
@@ -53,8 +53,9 @@ Importantly, the question does not mention concepts like happiness, wellbeing, o
 Let us take a deeper look into the relationship between GDP per capita PPP and subjective wellbeing.
 
 <div align="center">
-  <img src="https://lh3.googleusercontent.com/d/1HRGoUA_EeL-3ckPrYDv0X8_5YUIiGSmI" alt="LOWESS curve" width="800">
+  <img src="https://lh3.googleusercontent.com/d/16iFz1qJBjkQjcGomxYtI7y-uh-VJqK7H" alt="Lowess Curve" width="800">
 </div>
+
 
 The red line above is not a linear regression line, but a LOWESS (Locally Weighted Scatterplot Smoothing) curve. It is made out of stitching many tiny local regressions around neighbouring points into one smooth curve. The reason for choosing this trend line instead of a linear regression was that it makes obvious the point at which we see significantly diminishing marginal returns.
 
@@ -62,7 +63,16 @@ We can see that the curve nearly flattens at ~85000 dollars. Considering these a
 
 It is even more interesting to note that near the 60,000 GDP per capita PPP mark, many countries report higher subjective wellbeing than significantly richer countries (visible on the far right of the graph). To find out which countries fall into this category, the code snippet below gives us countries with a GDP per capita PPP greater than 40,000 dollars, and a ladder score that's greater than 7.
 
+<div align="center">
+  <img src="https://lh3.googleusercontent.com/d/1cd7hfdH2p7F0XJHLEW-r11E_UFJXQm9y" alt="code snippet" width="800">
+</div>
+
+
 We use plotly to plot these specific countries on a graph and see exactly which ones are happiness-outliers.
+
+<div align="center">
+  <img src="https://lh3.googleusercontent.com/d/1HRGoUA_EeL-3ckPrYDv0X8_5YUIiGSmI" alt="Outlier Countries" width="800">
+</div>
 
 
 As we can note from the above graph, Finland, Denmark and Iceland lie way above on the ladder than countries with either the same or even higher gdp per capita PPP (like Switzerland and Luxembourg).
